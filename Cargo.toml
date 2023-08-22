@@ -1,0 +1,18 @@
+[package]
+name = "otpauth-migration-decoder"
+version = "0.1.0"
+authors = ["vincent hanquez <vincent@typed.io>"]
+edition = "2021"
+
+[dependencies]
+bardecoder = "0.5"
+image = "0.24"
+url = "2"
+base64 = "0.21"
+base32 = "0.4"
+prost = "0.11"
+prost-types = "0.11"
+bytes = "1"
+
+[build-dependencies]
+prost-build = "0.11"
